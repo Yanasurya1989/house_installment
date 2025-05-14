@@ -10,7 +10,7 @@
     <div class="row justify-content-center">
         <!-- Beranda -->
         <div class="col-md-3 mb-4">
-            <a href="{{ route('home') }}" class="text-decoration-none text-dark">
+            <a href="{{ route('dashboard') }}" class="text-decoration-none text-dark">
                 <div class="card text-center shadow-sm {{ request()->is('/dashboard') ? 'border-primary' : '' }}">
                     <div class="card-body">
                         <div class="display-4 mb-2">🏠</div>

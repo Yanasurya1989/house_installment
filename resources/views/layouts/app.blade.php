@@ -76,7 +76,8 @@
             <div class="sidebar">
                 <h5>{{ auth()->user()->name }}</h5>
                 <hr>
-                <a href="{{ route('home') }}" class="{{ request()->is('/dashboard') ? 'active' : '' }}">🏠 Beranda</a>
+                <a href="{{ route('dashboard') }}" class="{{ request()->is('/dashboard') ? 'active' : '' }}">🏠
+                    Beranda</a>
                 <a href="{{ route('house_installments.index') }}"
                     class="{{ request()->is('house_installments*') ? 'active' : '' }}">💰 Cicilan</a>
                 <a href="{{ route('users.index') }}" class="{{ request()->is('users*') ? 'active' : '' }}">👥 Manajemen
